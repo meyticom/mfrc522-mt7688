@@ -3,7 +3,7 @@
 
 import mraa
 
-spi = mraa.Spi(0)
+
 import signal
 import time
   
@@ -108,11 +108,12 @@ class MFRC522:
     
   serNum = []
   
-  def __init__(self, dev='/dev/spidev0.0', spd=1000000):
+  def __init__(self, dev=0, spd=1000000):
     pin_22 = mraa.Gpio(self.NRSTPD)
     # Initialize GPIO2 (P10 on LinkIt Smart 7688 board)
     pin_22.dir(mraa.DIR_OUT)  # set as OUTPUT pin
-    spi.openSPI(device=dev,speed=spd)
+    spi = mraa.Spi(0)
+    spi.frequency(spd)
     pin_22.write(1)
     self.MFRC522_Init()
   
