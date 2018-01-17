@@ -384,6 +384,9 @@ class MFRC522:
         i = i+1
 
   def MFRC522_Init(self):
+    pin_22 = mraa.Gpio(self.NRSTPD)
+    # Initialize GPIO2 (P10 on LinkIt Smart 7688 board)
+    pin_22.dir(mraa.DIR_OUT)  # set as OUTPUT pin
     pin_22.write(1)
   
     self.MFRC522_Reset();
