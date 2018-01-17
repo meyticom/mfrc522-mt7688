@@ -6,7 +6,7 @@ import mraa
 import MFRC522
 import signal
 
-pin_22 = mraa.Gpio(22)
+pin_22 = mraa.Gpio(37)
 # Initialize GPIO2 (P10 on LinkIt Smart 7688 board)
 pin_22.dir(mraa.DIR_OUT)  # set as OUTPUT pin
 
