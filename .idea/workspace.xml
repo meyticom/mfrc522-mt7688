@@ -29,11 +29,9 @@
       <file leaf-file-name="MFRC522.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MFRC522.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="388" column="49" lean-forward="false" selection-start-line="388" selection-start-column="49" selection-end-line="388" selection-end-column="49" />
-              <folding>
-                <element signature="e#46#57#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-6089">
+              <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -327,11 +325,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MFRC522.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="388" column="49" lean-forward="false" selection-start-line="388" selection-start-column="49" selection-end-line="388" selection-end-column="49" />
-          <folding>
-            <element signature="e#46#57#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-6089">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>

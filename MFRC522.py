@@ -3,7 +3,7 @@
 
 import mraa
 
-
+spi = mraa.Spi(0)
 import signal
 import time
   
